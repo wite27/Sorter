@@ -51,7 +51,7 @@ namespace Sorter.SorterImplementations
             while (secondCurrent <= secondHigh)
                 temp[tempCurrent++] = coll[secondCurrent++];
 
-            Array.Copy(temp, coll, temp.Length);
+            Array.Copy(temp, 0, coll, firstLow, temp.Length);
         }
     }
 }
