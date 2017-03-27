@@ -47,7 +47,8 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BubbleSort_should.cs" />
+    <Compile Include="BubbleSorter_should.cs" />
+    <Compile Include="MergeSorter_should.cs" />
     <Compile Include="Sorter_should.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
