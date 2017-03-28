@@ -3,7 +3,6 @@ using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
 using Sorter;
-using Sorter.SorterImplementations;
 
 namespace NUnitTestProject
 {
@@ -24,7 +23,7 @@ namespace NUnitTestProject
 
             GetSorter().Sort(seq);
 
-            seq.ShouldBeEquivalentTo(expectedSeq);
+            seq.Should().Equal(expectedSeq);
         }
     }
 }

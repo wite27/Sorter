@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using NUnitTestProject;
 using Sorter;
 using Sorter.SorterImplementations;
 
