@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sorter.SorterImplementations
 {
@@ -15,7 +11,7 @@ namespace Sorter.SorterImplementations
             {
                 for (int j = i + 1; j < len; j++)
                 {
-                    if (coll[j].CompareTo(coll[i]) > 0)
+                    if (coll[i].CompareTo(coll[j]) > 0)
                         Swap(ref coll[j], ref coll[i]);
                 }
             }
